@@ -29,6 +29,7 @@ function App() {
       />
       <button onClick={handleAdd}>ADD</button>
       <button onClick={handleReset}>RESET</button>
+      <button>Useless Button</button>
       <ul>
         {todoList.map((todo, index) => (
           <li key={index}>{todo}</li>
