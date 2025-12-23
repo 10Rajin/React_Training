@@ -10,7 +10,7 @@ const Counter = () => {
   }
   function decrement() {
     setState(state - 1);
-  }
+    }
 
   return (
     <>
